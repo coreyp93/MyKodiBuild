@@ -13,6 +13,8 @@
         <description>[B][COLOR dodgerblue]My Build[/COLOR][/B] Repository</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
     </extension>
 </addon>
 </addons>
