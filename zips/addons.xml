@@ -13,6 +13,9 @@
         <description>[B][COLOR dodgerblue]My Build[/COLOR][/B] Repo</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 </addons>
