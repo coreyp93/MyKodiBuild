@@ -122,7 +122,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.0.24" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.4.8" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -845,7 +845,7 @@ Fixed CM options not showing if context menu addon not installed
     </extension>
 </addon>
 
-<addon id="skin.auramod" version="0.9.32" name="Aura[COLOR cyan]MOD[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt">
+<addon id="skin.auramod" version="0.9.32#5" name="Aura[COLOR cyan]MOD[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="repository.marcelveldt" version="1.0.1"/>
