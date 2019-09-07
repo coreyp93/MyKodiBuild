@@ -1,4 +1,4 @@
-# <B>MyKodiBuild</B>
+# [<B>MyKodiBuild</B>](https://coreyp93.github.io/MyKodiBuild/repo/)
 
 Go to the Kodi file manager.
 
