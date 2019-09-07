@@ -1,4 +1,4 @@
-<B>My Kodi Build</B>
+# <B>MyKodiBuild</B>
 
 Go to the Kodi file manager.
 
