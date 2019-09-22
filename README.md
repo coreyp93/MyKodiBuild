@@ -16,6 +16,8 @@ Go back to Addons install, but this time, select "Install from repository"
 
 Select the "MyKodiBuild Repo"
 
+[My Kodi Build Website](https://coreyp93.000webhostapp.com)
+
 <li> <a href="https://onedrive.live.com/embed?cid=9012DDEA11BF97A0&resid=9012DDEA11BF97A0%21295109&authkey=AKjojNlLmsXAaTE">MyKodiBuild.zip</a>
 
-[My Kodi Build Website](https://coreyp93.000webhostapp.com)
+
