@@ -18,3 +18,4 @@ Select the "MyKodiBuild Repo"
 
 <li> <a href="https://onedrive.live.com/embed?cid=9012DDEA11BF97A0&resid=9012DDEA11BF97A0%21295109&authkey=AKjojNlLmsXAaTE">MyKodiBuild.zip</a>
 
+My Kodi Build Website (https://coreyp93.000webhostapp.com)
