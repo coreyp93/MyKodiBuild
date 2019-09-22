@@ -10,8 +10,5 @@
 		<summary lang="en">My Kodi [B][COLOR dodgerblue]Build[/COLOR][/B] Repo</summary>
 		<description lang="en">My Kodi [B][COLOR dodgerblue]Build[/COLOR][/B] Repo</description>
 		<platform>all</platform>
-		<assets>
-			<icon>icon.jpg</icon>
-		</assets>
 	</extension>
 </addon>
