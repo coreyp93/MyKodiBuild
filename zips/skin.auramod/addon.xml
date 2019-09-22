@@ -17,8 +17,8 @@
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">0.9.33 #11 Mod of aura ,  Minimalistic. Customisable. Multiple Widgets.</summary>
-        <description lang="en">0.9.33 #11 Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.,  [COLOR cyan]Mods to Aura by skyfsza[/COLOR]</description>
+        <summary lang="en">Mod of aura ,  Minimalistic. Customisable. Multiple Widgets.</summary>
+        <description lang="en">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.,  [COLOR cyan]Mods to Aura by skyfsza[/COLOR]</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum/>
