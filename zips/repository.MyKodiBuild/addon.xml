@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.MyKodiBuild" name="[B][COLOR dodgerblue]My Build[/COLOR][/B] Repo" version="1.0" provider-name="coreyp93">
+<addon id="repository.MyKodiBuild" name="[B][COLOR dodgerblue]My Build[/COLOR][/B] Repo" version="1.1" provider-name="coreyp93">
     <extension point="xbmc.addon.repository" name="[B][COLOR dodgerblue]My Build[/COLOR][/B] Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml</info>
