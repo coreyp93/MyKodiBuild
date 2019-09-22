@@ -379,16 +379,16 @@ Fixed Background Scraping Display style
 	</extension>
 </addon>
 
-<addon id="repository.MyKodiBuild" version="1.1" name="My Kodi [B][COLOR dodgerblue]Build[/COLOR][/B] Repo" provider-name="coreyp93">
+<addon id="repository.MyKodiBuild" version="1.1" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
 
-	<extension point="xbmc.addon.repository" name="My Kodi [B][COLOR dodgerblue]Build[/COLOR][/B] Repo">
+	<extension point="xbmc.addon.repository" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]">
 		<info compressed="false">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">My Kodi [B][COLOR dodgerblue]Build[/COLOR][/B] Repo</summary>
-		<description lang="en">My Kodi [B][COLOR dodgerblue]Build[/COLOR][/B] Repo</description>
+		<summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]</summary>
+		<description lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]</description>
 		<platform>all</platform>
 	</extension>
 </addon>
