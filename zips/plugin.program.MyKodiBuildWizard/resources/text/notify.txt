@@ -1,0 +1,11 @@
+1
+|||
+MyKodiBuilds Update Notifications.
+
+Builds Are Out! Click DISMISS, another message should pop up
+click FRESH INSTALL! Once install is done, click force close
+and re-open kodi afterwards and you're good to go.
+
+Changelog
+
+Release
