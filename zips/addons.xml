@@ -134,7 +134,7 @@
         <description>[B][COLOR dodgerblue]My [/COLOR][/B] Repo</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
-     </extension>
+    </extension>
 </addon>
 
 <addon id="repository.castagnait" name="CastagnaIT Repository" version="1.0.0" provider-name="castagnait">
