@@ -48,6 +48,20 @@
 	</extension>
 </addon>
 
+<addon id="repository.nixgates" name="Nixgates Repo" version="1.0.0" provider-name="Nixgates">
+	<extension point="xbmc.addon.repository" name="Nixgates Repo">
+		<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Nixgates</summary>
+		<description>Nixgates Repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.program.MyKodiBuildWizard" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]" version="1.0.7" provider-name="Coreyp93">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -119,22 +133,6 @@
 		<description lang="en">Kodi repository for beta/test versions of the Auramod Skin. This repo is for test/beta versions of my work only</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.binaryrepo" name="[B][COLOR dodgerblue]My[/COLOR][/B] Repo" version="1.0.1" provider-name="coreyp93">
-    <extension point="xbmc.addon.repository" name="[B][COLOR dodgerblue]My [/COLOR][/B] Repo">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/coreyp93/binaryrepo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/coreyp93/binaryrepo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/coreyp93/binaryrepo/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>[B][COLOR dodgerblue]My [/COLOR][/B] Repo</summary>
-        <description>[B][COLOR dodgerblue]My [/COLOR][/B] Repo</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="repository.castagnait" name="CastagnaIT Repository" version="1.0.0" provider-name="castagnait">
