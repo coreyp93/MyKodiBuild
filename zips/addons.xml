@@ -755,6 +755,20 @@ Fixed Background Scraping Display style
         </assets>
 </addon>
 
+<addon id="repository.MyKodiBuild" version="1.1" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
+
+	<extension point="xbmc.addon.repository" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]">
+		<info compressed="false">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]</summary>
+		<description lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.netflix" name="Netflix Addon Repository" version="1.0.1" provider-name="libdev + jojo + asciidisco">
     <extension point="xbmc.addon.repository" name="Netflix Addon Repository">
         <info compressed="false">https://johtru.com/repo/repo.php</info>
