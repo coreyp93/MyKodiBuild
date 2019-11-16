@@ -393,15 +393,18 @@ Fixed Background Scraping Display style
 	</extension>
 </addon>
 
-<addon id="repository.bingie" name="bingie repository" provider-name="cartmandos" version="1.0.0">
+<addon id="repository.bingie" name="BINGIE Repository" provider-name="cartman.dos" version="1.0.2">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
 	<extension name="bingie repository" point="xbmc.addon.repository">
 		<info compressed="false">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Kodi repository for bingie mod(e) and extras</summary>
-		<description lang="en">bingie repository currently under construction and in alpha stage</description>
+		<summary lang="en">Home of Titan BINGIE</summary>
+		<description lang="en">BINGIE repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -464,6 +467,30 @@ Fixed Background Scraping Display style
 		<assets>
 			<icon>icon.jpg</icon>
 		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.ccloud" name="cCloud Repo" version="1.0" provider-name="Bane">
+	<extension point="xbmc.addon.repository" name="cCloud Addon Repository">
+        <dir>
+					<info compressed="false">https://github.com/darknessally/tva-resolvers-repo/raw/master/addons.xml</info>
+	        <checksum>https://github.com/darknessally/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://github.com/darknessally/tva-resolvers-repo/raw/master/zips/</datadir>
+				</dir>
+        <info compressed="false">http://github.com/darknessally/firerises/raw/master/addons.xml</info>
+        <checksum>http://github.com/darknessally/firerises/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://github.com/darknessally/firerises/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>cCloud</summary>
+		<description>Official cCloud Repo with addons for official support please go to ccloudtv.org</description>
+		<license>http://www.gnu.org/licenses/</license>
+    <forum>http://ccloudtv.org/forum</forum>
+    <website>http://ccloudtv.org</website>
+    <website>http://facebook.com/ccloudapp</website>
+    <website>http://twitter.com/ccloudapp</website>
+    <email></email>
+    <platform>all</platform>
 	</extension>
 </addon>
 
@@ -703,6 +730,52 @@ Fixed Background Scraping Display style
     </extension>
 </addon>
 
+<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="3.0.0" provider-name="kodibae">
+    <extension point="xbmc.addon.repository" name="[COLOR pink]Kodi Bae Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Addons for Kodi</summary>
+        <description>Would you care for some salt with that fork?</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" version="1.3" provider-name="kodil">
+    <extension point="xbmc.addon.repository" name=".Kodil  Repository ">
+        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodisrael repository</summary>
+        <description>kodil repository - the most extensive repository in isrl </description>
+        <description>הריפו של קודישראל - מאגר ההרחבות הגדול והאיכותי בישראל  </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.magicality" name="Magicality Repo" version="0.0.4" provider-name="Wilson Magic">
+	<extension point="xbmc.addon.repository" name="Magicality Repo">
+		<info compressed="false">https://raw.githubusercontent.com/Wilson-Magic/repository.magicality/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Wilson-Magic/repository.magicality/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Wilson-Magic/repository.magicality/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Magicality</summary>
+		<description>Magicality - Home of Masterani Redux</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.marcelveldt" version="1.0.1" name="Marcelveldt's BETA repository" provider-name="marcelveldt">
 
 	<extension point="xbmc.addon.repository" name="Marcelveldt's BETA repository">
@@ -839,6 +912,23 @@ Fixed Background Scraping Display style
 	</extension>
 </addon>
 
+<addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.0" provider-name="rmrector">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Rector Repository">
+		<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A little place for my stuff.</summary>
+		<description lang="en">I'm Rector, I do stuff, I put it here.</description>
+		<platform>all</platform>
+		<disclaimer />
+	</extension>
+</addon>
+
 <addon id="repository.redditreaper" name="Reddit Reaper Repository" version="1.2" provider-name="Reddit Reaper">
 	<extension point="xbmc.addon.repository" name="Reddit Reaper Repository">
 		<info compressed="false">https://raw.githubusercontent.com/reddit-reaper/Addons/master/addons.xml</info>
@@ -869,6 +959,32 @@ Fixed Background Scraping Display style
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
+	</extension>
+</addon>
+
+<addon id="repository.tempest" name="Tempest Repo" version="0.0.5" provider-name="Tempest">
+	<extension point="xbmc.addon.repository" name="Tempest Repo">
+        <info compressed="false">https://raw.githubusercontent.com/Tempest0580/tempest/master/zips/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/Tempest0580/tempest/master/zips/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/Tempest0580/tempest/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">kodi addon</summary>
+		<description lang="en">Watch Movies and Tv Shows</description>
+		<genre>movies,tvshows,usa</genre>
+	</extension>
+</addon>
+
+<addon id="repository.temptv" name="Temptv Repo" version="0.0.5" provider-name="Tempest">
+	<extension point="xbmc.addon.repository" name="Tempest Repo">
+        <info compressed="false">https://raw.githubusercontent.com/Tempest0580/temptv/master/zips/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/Tempest0580/temptv/master/zips/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/Tempest0580/temptv/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">kodi addon</summary>
+		<description lang="en">Watch Live Tv</description>
+		<genre>live tv</genre>
 	</extension>
 </addon>
 
