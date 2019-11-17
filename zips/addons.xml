@@ -28,21 +28,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.MyKodiBuildWizard" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]" version="1.1.1" provider-name="Coreyp93">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]</summary>
-    <description lang="en">MyKodiBuild Wizard contains the latest MyKodiBuild's.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.elementum" name="Elementum" version="0.1.41" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
@@ -533,7 +518,7 @@ Fixed Background Scraping Display style
 	</extension>
 </addon>
 
-<addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="3.9.5" provider-name="Diamond Build">
+<addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="3.9.6" provider-name="Diamond Build">
 <extension point="xbmc.addon.repository" name="Diamond Wizard Repo - Primary Server">
 <!-- Diamond Repository -->
 
@@ -648,15 +633,15 @@ Fixed Background Scraping Display style
 	</extension>
 </addon>
 
-<addon id="repository.gaia" version="4.0.0" name="Gaia Repository" provider-name="Gaia">
+<addon id="repository.gaia" version="5.0.0" name="Gaia Repository" provider-name="Gaia">
 	<extension point="xbmc.addon.repository" name="Gaia Repository">
 		<dir>
-			<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml?v=4.0.0</info>
-			<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml.md5?v=4.0.0</checksum>
+			<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml?v=5.0.0</info>
+			<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml.md5?v=5.0.0</checksum>
 			<datadir zip="true">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/</datadir>
 		</dir>
-		<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml?v=4.0.0</info>
-		<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml.md5?v=4.0.0</checksum>
+		<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml?v=5.0.0</info>
+		<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml.md5?v=5.0.0</checksum>
 		<datadir zip="true">https://github.com/gaiaorigin/gaiaorigin/raw/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -847,22 +832,6 @@ Fixed Background Scraping Display style
 	</extension>
 </addon>
 
-<addon id="repository.netflix" name="Netflix Addon Repository" version="1.0.1" provider-name="libdev + jojo + asciidisco">
-    <extension point="xbmc.addon.repository" name="Netflix Addon Repository">
-        <info compressed="false">https://johtru.com/repo/repo.php</info>
-        <checksum>https://johtru.com/repo/repo.php?md5=true</checksum>
-        <datadir zip="true">https://johtru.com/repo/repo_files</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>The Repository for the Kodi Netflix Addon</summary>
-        <summary lang="de">Das Repository für das Kodi Netflix Addon</summary>
-        <description>Provides the Netflix Addons fpr kodi.</description>
-        <description lang="de">Stellt das Kodi Netflix Addon bereit</description>
-        <disclaimer>Some parts of this Repository may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="repository.openmeta" name="OpenMeta Repository" version="1.4" provider-name="A4K">
 	<extension point="xbmc.addon.repository" name="OpenMeta Repository">
 		<dir>
@@ -1015,7 +984,7 @@ Fixed Background Scraping Display style
 	</extension>
 </addon>
 
-<addon id="repository.thecrew" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew" version="0.0.8">
+<addon id="repository.thecrew" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew" version="0.0.9">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -1039,6 +1008,16 @@ Fixed Background Scraping Display style
 			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://repo.orionoid.com/addons.xml?v=3.3.0</info>
+			<checksum>https://repo.orionoid.com/addons.xml.md5?v=3.3.0</checksum>
+			<datadir zip="true">https://repo.orionoid.com</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
