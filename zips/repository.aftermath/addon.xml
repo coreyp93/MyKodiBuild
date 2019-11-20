@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.aftermath" name="[B][COLOR dodgerblue]Aftermath[/COLOR][/B] Repository" version="1.3" provider-name="drinfernoo">
+<addon id="repository.aftermath" name="[B][COLOR dodgerblue]Aftermath[/COLOR][/B] Repository" version="1.4" provider-name="drinfernoo">
 	<extension point="xbmc.addon.repository" name="[B][COLOR dodgerblue]Aftermath[/COLOR][/B] Repository">
 		<dir>
             <info compressed="false">https://raw.githubusercontent.com/drinfernoo/repository.aftermath/master/zips/addons.xml</info>
