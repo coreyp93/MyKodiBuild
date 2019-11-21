@@ -1156,6 +1156,19 @@ Fixed Background Scraping Display style
 	</extension>
 </addon>
 
+<addon id="script.module.yoda" name="[COLORgreen]yoda Module[/COLOR]" version="1.0.6" provider-name="S">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0.1" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">yoda</summary>
+		<description></description>
+        <disclaimer lang="en"></disclaimer>
+	</extension>
+</addon>
+
 <addon id="service.upnext" name="Up Next" provider-name="im85288" version="1.0.3">
     <requires>
         <import addon="script.module.requests" version="2.9.1"/>
