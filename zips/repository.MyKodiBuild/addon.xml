@@ -15,7 +15,6 @@
 			<datadir zip="true">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/</datadir>
 		</dir>
 
-	<!-- Nixgates -->
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
