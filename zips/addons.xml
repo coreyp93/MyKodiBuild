@@ -72,7 +72,7 @@
   </extension>
 </addon>
 
-<addon id="repository.MyKodiBuild" version="1.1.1" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
+<addon id="repository.MyKodiBuild" version="1.1.12" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
 
 	<extension point="xbmc.addon.repository" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]">
 			<dir>
@@ -89,7 +89,6 @@
 					<fanart>fanart.jpg</fanart>
 				</assets>
 			</extension>
-
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml.md5</checksum>
@@ -109,7 +108,7 @@
 			<info compressed="false">https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/zips/</datadir>
-	   </dir>
+		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/drinfernoo/repository.aftermath/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/drinfernoo/repository.aftermath/master/zips/addons.xml.md5</checksum>
@@ -210,12 +209,12 @@
 			<checksum>https://repo.derfred.net/repositories/addons.xml.md5</checksum>
 			<datadir zip="true">https://repo.derfred.net/repositories/</datadir>
 		</dir>
-		<dir minversion="17.9.0">
+		<dir>
 			<info compressed="false">https://repo.derfred.net/leia/addons.xml</info>
 			<checksum>https://repo.derfred.net/leia/addons.xml.md5</checksum>
 			<datadir zip="true">https://repo.derfred.net/leia/</datadir>
 		</dir>
-		<dir minversion="16.9.0">
+		<dir>
 			<info compressed="false">https://repo.derfred.net/krypton/addons.xml</info>
 			<checksum>https://repo.derfred.net/krypton/addons.xml.md5</checksum>
 			<datadir zip="true">https://repo.derfred.net/krypton/</datadir>
@@ -355,7 +354,6 @@
 			<checksum>https://raw.githubusercontent.com/123Venom/zips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/123Venom/zips/master/</datadir>
 		</dir>
-
 	</extension>
 </addon>
 
