@@ -275,13 +275,4 @@
 		</dir>
 		
 	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Official Repo[/B]</summary>
-		<description lang="en">[B]Home Of The My Kodi [COLOR dodgerblue]Build[/COLOR] Official Repo[/B]</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
 </addon>
