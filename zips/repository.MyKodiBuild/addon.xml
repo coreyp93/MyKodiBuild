@@ -132,7 +132,13 @@
 			<datadir zip="true">http://github.com/darknessally/firerises/raw/master/zips</datadir>
 		</dir>
 
-
+	<!-- DxCx -->
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/DxCx/repo.plugin.video.9anime/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/DxCx/repo.plugin.video.9anime/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/DxCx/repo.plugin.video.9anime/master</datadir>
+		</dir>
+		
 	<!-- DejaVu -->
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
