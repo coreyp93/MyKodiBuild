@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.foxystreams-dev" name="FoxyStreams Repo (dev)" version="0.0.1" provider-name="ruinernin">
+    <extension point="xbmc.addon.repository" name="FoxyStreams-dev">
+        <info compressed="false">https://raw.githubusercontent.com/ruinernin/foxystreams/devrepo/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/ruinernin/foxystreams/devrepo/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/ruinernin/foxystreams/devrepo/zips/</datadir>
+    </extension>
+</addon>
