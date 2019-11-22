@@ -9,7 +9,6 @@
 			<datadir zip="true">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/</datadir>
 		</dir>
 		
-		<!-- Doko -->
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml.md5</checksum>
