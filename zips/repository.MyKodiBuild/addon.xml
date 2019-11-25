@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.MyKodiBuild" version="1.1.17" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
+<addon id="repository.MyKodiBuild" version="1.1.18" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
 	<extension point="xbmc.addon.repository" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/123Venom/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/123Venom/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/123Venom/zips/master/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://bitbucket.org/threw/the-crew/raw/master/_zips/addons.xml</info>
-			<checksum>https://bitbucket.org/threw/the-crew/raw/master/_zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://bitbucket.org/threw/the-crew/raw/master/_zips/</datadir>
-		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]</summary>
