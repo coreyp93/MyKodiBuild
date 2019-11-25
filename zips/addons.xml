@@ -640,7 +640,7 @@
         </assets>
 </addon>
 
-<addon id="repository.MyKodiBuild" version="1.1.15-beta" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
+<addon id="repository.MyKodiBuild" version="1.1.15" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
