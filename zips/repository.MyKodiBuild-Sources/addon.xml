@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.MyKodiBuild-Sources" version="1.0.0" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Sources Repo[/B]" provider-name="coreyp93">
+	
+	<extension point="xbmc.addon.repository" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Sources Repo[/B]">
+		<info compressed="false">https://raw.githubusercontent.com/coreyp93/MyKodiBuild-Sources/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/coreyp93/MyKodiBuild-Sources/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/coreyp93/MyKodiBuild-Sources/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Sources Repo[/B]</summary>
+		<description lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Sources Repo[/B]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
