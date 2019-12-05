@@ -6,7 +6,7 @@ The path for the source is [https://coreyp93.github.io/MyKodiBuild/repo/](https:
 
 **`Go to "Addons"> "install from zip file"> find and click on "MyKodiBuild Repo">`**
 
-click the link to install [repository.MyKodiBuild-1.1.22.zip](https://coreyp93.github.io/MyKodiBuild/repo/repository.MyKodiBuild-1.1.22.zip)
+click the link to install [repository.MyKodiBuild-1.1.23.zip](https://coreyp93.github.io/MyKodiBuild/repo/repository.MyKodiBuild-1.1.23.zip)
 
 **`Go back to Addons> select "Install from repository"> Select the "MyKodiBuild Repo"`** to view the addons available
 
