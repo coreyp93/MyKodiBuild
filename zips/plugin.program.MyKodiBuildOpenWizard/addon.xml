@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.MyKodiBuild.OpenWizard" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]" version="1.0.0" provider-name="Coreyp93">
+<addon id="plugin.program.MyKodiBuild.OpenWizard" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] OpenWizard[/B]" version="1.0.0" provider-name="Coreyp93">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -13,7 +13,7 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]</summary>
+    <summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] OpenWizard[/B]</summary>
     <description lang="en">MyKodiBuild Wizard contains many useful features including maintenance tools, add-on data saving and build installation</description>
     <platform>all</platform>
 	<news>
