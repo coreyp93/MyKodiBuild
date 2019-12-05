@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.MyKodiBuild.OpenWizard" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] OpenWizard[/B]" version="1.0.2" provider-name="Coreyp93">
+<addon id="plugin.program.MyKodiBuild.OpenWizard" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] OpenWizard[/B]" version="1.0.3" provider-name="Coreyp93">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -77,12 +77,48 @@
     </extension>
 </addon>
 
-<addon id="repository.MyKodiBuild" version="1.1.20" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
-
+<addon id="repository.MyKodiBuild" version="1.1.21" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
 	<extension point="xbmc.addon.repository" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]">
-		<info compressed="false">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/</datadir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/coreyp93/MyKodiBuild/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages</datadir>
+		</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/skyfsza/repository.auramod/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/skyfsza/repository.auramod/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/skyfsza/repository.auramod/master/</datadir>
+		</dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/</datadir>
+		</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml</info>
+			<checksum>https://github.com/croneter/repository.plexkodiconnect/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/croneter/repository.plexkodiconnect/repo/bin/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]</summary>
