@@ -24,21 +24,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.MyKodiBuildWizard" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]" version="1.1.5" provider-name="Coreyp93">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]</summary>
-    <description lang="en">MyKodiBuild Wizard contains the latest MyKodiBuild's.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="repository.MyKodiBuild" version="1.1.23" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]" provider-name="coreyp93">
 	<extension point="xbmc.addon.repository" name="[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Repo[/B]">
 		<dir>
@@ -83,7 +68,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.auramod" version="0.9.37" name="Aura[COLOR cyan]MOD[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt">
+<addon id="skin.auramod" version="0.9.37.03" name="Aura[COLOR cyan]MOD[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="repository.marcelveldt" version="1.0.1"/>
